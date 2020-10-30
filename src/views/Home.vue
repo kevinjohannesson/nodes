@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <Droppable class="container">
+    <Droppable class="container" id="droppable_1">
       Droppable #1
-      <Draggable id="drag1">
+      <Draggable id="draggable_1">
         Draggable #1
       </Draggable>
-      <Draggable id="drag2">
+      <Draggable id="draggable_2">
         Draggable #2
       </Draggable>
-    </Droppable>
-    <Droppable class="container">
-      Droppable #2
-      <Draggable id="drag3">
+      <Draggable id="draggable_3">
         Draggable #3
+      </Draggable>
+      <Draggable id="draggable_4">
+        Draggable #4
+      </Draggable>
+      <Draggable id="draggable_5">
+        Draggable #5
+      </Draggable>
+    </Droppable>
+    <Droppable class="container" id="droppable_2">
+      Droppable #2
+      <Draggable id="draggable_6">
+        Draggable #6
+      </Draggable>
+      <Draggable id="draggable_7">
+        Draggable #7
+      </Draggable>
+      <Draggable id="draggable_8">
+        Draggable #8
       </Draggable>
     </Droppable>
   </div>
@@ -41,7 +56,7 @@ export default defineComponent({
   justify-content: space-around
 
 .container
-  border: 3px solid green
+  // border: 3px solid green
 
 #id
   background-color: white

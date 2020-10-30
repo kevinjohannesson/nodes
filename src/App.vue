@@ -20,9 +20,10 @@ body
   min-width: 100vw
   display: flex
   flex-direction: column
+  background: linear-gradient(to right, #fceabb, #f8b500)
+
 
 #app
-  border: 2px solid red
   display: flex
   flex: 1
 </style>
